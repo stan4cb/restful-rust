@@ -1,0 +1,12 @@
+[package]
+name = "restful-rust"
+version = "0.0.5"
+authors = ["Stanislav Ursache"]
+
+[dependencies]
+iron = "*"
+router = "*"
+staticfile = "*"
+
+[dependencies.mount]
+git = "https://github.com/iron/mount.git"
